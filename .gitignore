@@ -8,6 +8,6 @@
 /captures
 .externalNativeBuild
 
-gradlew
-gradlew.bat
-local.properties
+/gradlew
+/gradlew.bat
+/local.properties
