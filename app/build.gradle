@@ -2,11 +2,11 @@ import org.apache.tools.ant.taskdefs.condition.Os
 apply plugin: 'com.android.application'
 
 android {
-    compileSdk 33
+    compileSdk 31
     defaultConfig {
         applicationId "com.vslam.orbslam3.vslamactivity"
         minSdkVersion 29
-        targetSdkVersion 29
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -48,7 +48,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     ndkVersion '21.4.7075529'
-    buildToolsVersion '29.0.3'
     //namespace 'com.vslam.orbslam3.vslamactivity'
 
 }
